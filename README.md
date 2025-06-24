@@ -13,9 +13,17 @@ To run a test:
 
 1. Clone this repository
 2. Ensure [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) and `Invoke-AtomicTest` are installed
-3. Run a custom test locally:
+3. Show a custom test details locally:
+
+
    ```powershell
    Invoke-AtomicTest Txxxx -PathToAtomicsFolder "Path\To\Custom_RedTeam_Scripts\Txxxx" -ShowDetails
+   ```
+   Or, if the main folder is installed within the Home directory on Linux/Debian
+   ```powershell
+   Invoke-AtomicTest Txxxx -ShowDetails
+   ```
+ 
 
 <p align="center">✍️ Authorship & Intent </p>
 
