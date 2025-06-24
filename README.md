@@ -13,7 +13,7 @@ To run a test:
 
 1. Clone this repository
 2. Ensure [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team) and `Invoke-AtomicTest` are installed
-3. Show a custom test details locally:
+3. COmmands to show a custom test's details locally:
 
 
    ```powershell
